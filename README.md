@@ -34,7 +34,13 @@ To try a specific version of the SDK, add the version number as the image tag:
 docker run -it -p 8887:8887 ninghai/azureml:<version_number>
 ```
 ## Supported SDK versions
-**December 2018 GA release**:
+**December 21, 2018 release**:
+```sh
+docker run -it -p 8887:8887 ninghai/azureml:1.0.6
+```
+
+## Supported SDK versions
+**December 3rd, 2018 GA release**:
 ```sh
 docker run -it -p 8887:8887 ninghai/azureml:1.0.2
 ```
