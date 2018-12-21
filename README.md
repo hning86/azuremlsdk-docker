@@ -39,7 +39,6 @@ docker run -it -p 8887:8887 ninghai/azureml:<version_number>
 docker run -it -p 8887:8887 ninghai/azureml:1.0.6
 ```
 
-## Supported SDK versions
 **December 3rd, 2018 GA release**:
 ```sh
 docker run -it -p 8887:8887 ninghai/azureml:1.0.2
