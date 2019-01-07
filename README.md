@@ -9,7 +9,7 @@ To try the latest SDK, simply type:
 ```sh
 docker run -it -p 8887:8887 ninghai/azureml
 ```
-Then launch a browser session, navigate to `https://localhost:8887`, and open the `configuration.ipynb` notebook.
+Then launch a browser session, navigate to `http://localhost:8887`, and open the `configuration.ipynb` notebook.
 
 ## Additional SDK components
 Please note in order to keep the image size small, I have only installed the core SDK in the image, which is the equivalent of running `pip install azureml-sdk[notebooks]`. If you need additional SDK components, you will need to install them in the `azureml` conda environment inside the Docker image. For example:
